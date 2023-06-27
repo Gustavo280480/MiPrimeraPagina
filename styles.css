@@ -130,4 +130,7 @@ img {
     text-align: center;
     z-index: -1;
   }
+  .greeting {
+    text-align: center;
+  }
 }
