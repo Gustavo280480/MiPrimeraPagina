@@ -2,14 +2,14 @@ function showAlert() {
     alert('!Hola,!');
 }
 
-//const miBoton = document.getElementById("miBoton");
+const miBoton = document.getElementById("miBoton");
 
 function handleClick() {
     alert("!Hola! Haz hecho clic en el boton.");
 }
-//miBoton.addEventListener("click", function () {
+miBoton.addEventListener("click", function () {
     //alert("¡Haz hecho clic en el boton!");
-//});
+});
 
 const form = document.getElementById("myForm");
 if (form) {
